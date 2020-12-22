@@ -3,7 +3,7 @@ import 'dart:io';
 void main(List<String> args) {
   if (args.isEmpty) {
     print('Usage: dart data-totals.dart <inputFile.csv>');
-    exit(1);
+    exit(2);
   }
 
   final inputFile = args.first;
